@@ -11,5 +11,3 @@ struct token{
 //Declaraciones de variables
 char caracter;
 int contador;
-int corte;
-
