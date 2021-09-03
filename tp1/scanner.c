@@ -1,11 +1,9 @@
 #include "scanner.h"
 
-
 struct token get_token(){
   caracter == '\0';
   caracter=getchar();
   contador = 0;
-  corte=0;
 
 while(isspace(caracter)) //consumo todos los espacios por si existen antes de empezar
         {
@@ -39,7 +37,7 @@ if(caracter != ',' && caracter != EOF) // por si es caracter (sera una cadena)
             return TOKEN;
     }
 
-if(caracter == 'EOF') // por si es fin del archivo
+if(caracter == EOF) // por si es fin del archivo
     {
         TOKEN.tipo = FDT;
         return TOKEN;
